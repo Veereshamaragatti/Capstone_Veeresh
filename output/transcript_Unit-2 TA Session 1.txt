@@ -1,0 +1,1 @@
+Audio Transcript for: Unit-2 TA Session 1.mp4\n==================================================\n\nTotal Duration: 354.21 seconds\n\nNote: This is a placeholder transcript.\nFor actual speech transcription, install whisper:\npip install openai-whisper\n\nTo get actual transcription, use:\nwhisper 'audio_file.wav' --output_format txt\n
