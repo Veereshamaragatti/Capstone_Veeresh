@@ -52,16 +52,35 @@ class FFmpegAudioProcessor:
     
     def check_ffmpeg(self) -> bool:
         """Check if FFmpeg is available."""
+        # First check if ffmpeg is in PATH
         try:
             result = subprocess.run(["ffmpeg", "-version"], 
                                   capture_output=True, text=True, timeout=10)
             if result.returncode == 0:
-                logger.info("FFmpeg is available")
+                logger.info("FFmpeg is available in PATH")
                 return True
         except (FileNotFoundError, subprocess.TimeoutExpired):
             pass
         
-        logger.error("FFmpeg not found in PATH")
+        # Check if we have local FFmpeg installation
+        local_ffmpeg = Path("ffmpeg") / "bin" / "ffmpeg.exe"
+        if local_ffmpeg.exists():
+            logger.info("Found local FFmpeg installation")
+            # Add to PATH for this session
+            ffmpeg_bin = str(Path("ffmpeg") / "bin")
+            os.environ["PATH"] = ffmpeg_bin + os.pathsep + os.environ["PATH"]
+            
+            # Test it works
+            try:
+                result = subprocess.run(["ffmpeg", "-version"], 
+                                      capture_output=True, text=True, timeout=10)
+                if result.returncode == 0:
+                    logger.info("Local FFmpeg is now available")
+                    return True
+            except (FileNotFoundError, subprocess.TimeoutExpired):
+                pass
+        
+        logger.error("FFmpeg not found in PATH or locally")
         return False
     
     def get_video_info(self) -> dict:
