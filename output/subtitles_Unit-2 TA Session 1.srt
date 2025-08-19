@@ -1,0 +1,324 @@
+1
+00:00:00,000 --> 00:00:01,980
+all the three IP by NB files.
+
+2
+00:00:03,779 --> 00:00:06,299
+You're free to collaborate with your classmates,
+
+3
+00:00:06,299 --> 00:00:09,519
+but just write the name of
+
+4
+00:00:09,519 --> 00:00:12,679
+the people you collaborated with at the top of the worksheet.
+
+5
+00:00:13,619 --> 00:00:15,779
+I'll just introduce the worksheets to you guys.
+
+6
+00:00:17,079 --> 00:00:20,140
+Worksheet 2 is on simple linear regression and
+
+7
+00:00:20,140 --> 00:00:21,559
+multiple linear regression.
+
+8
+00:00:22,339 --> 00:00:27,719
+You'll have to just plot a scatter plot and build a linear regression model.
+
+9
+00:00:27,719 --> 00:00:31,719
+You have to check if it follows the OLS assumptions and
+
+10
+00:00:31,719 --> 00:00:34,539
+validate the linear regression model.
+
+11
+00:00:35,259 --> 00:00:38,439
+Then the multiple linear regression you have to plot a
+
+12
+00:00:38,439 --> 00:00:45,320
+correlogram and check which contributes most to the target variable
+
+13
+00:00:45,320 --> 00:00:49,079
+and build a multiple linear regression model based on that.
+
+14
+00:00:50,079 --> 00:00:52,600
+Worksheet 2B is based on
+
+15
+00:00:52,600 --> 00:00:55,799
+a regression, lasso and a elastic regression.
+
+16
+00:00:56,100 --> 00:00:59,119
+You have to build all these three models.
+
+17
+00:01:00,939 --> 00:01:03,500
+Worksheet 2C is on logistic regression.
+
+18
+00:01:03,880 --> 00:01:07,579
+You have to just build a logistic regression model and
+
+19
+00:01:07,579 --> 00:01:10,260
+a lot of the ROC curve and you see value.
+
+20
+00:01:11,599 --> 00:01:14,579
+So the last day to submit will be 20th September.
+
+21
+00:01:15,959 --> 00:01:18,780
+Before constructing the correlogram,
+
+22
+00:01:19,500 --> 00:01:23,560
+you can use anything label encoding or one more encoding.
+
+23
+00:01:24,239 --> 00:01:25,319
+Just convert.
+
+24
+00:01:26,340 --> 00:01:31,519
+You can ask your doubts in the chat or you can raise your hand
+
+25
+00:01:31,519 --> 00:01:32,340
+will unmute you.
+
+26
+00:01:34,519 --> 00:01:39,019
+There will be another TA session four or five days before that it
+
+27
+00:01:39,019 --> 00:01:42,840
+lines. So by then your portion should be covered so you'll be able to
+
+28
+00:01:43,939 --> 00:01:47,079
+solve and ask more questions that time.
+
+29
+00:01:47,079 --> 00:01:52,260
+But if you have any doubts, you can put it in the chat or unmute
+
+30
+00:01:52,920 --> 00:01:54,159
+a razor hand will unmute.
+
+31
+00:01:54,819 --> 00:01:57,959
+You can just use the libraries to build the model.
+
+32
+00:01:58,400 --> 00:02:02,040
+Like for linear regression model, you can use LM and for
+
+33
+00:02:03,260 --> 00:02:06,239
+worksheet 2B, you can use GLMnet.
+
+34
+00:02:06,560 --> 00:02:08,039
+You need not build one from scratch.
+
+35
+00:02:08,039 --> 00:02:09,340
+Just import the libraries.
+
+36
+00:02:10,419 --> 00:02:12,639
+You can use any library you want.
+
+37
+00:02:12,840 --> 00:02:15,500
+There is no completion on the syntax.
+
+38
+00:02:15,500 --> 00:02:18,580
+You can use any syntax or any libraries you want.
+
+39
+00:02:20,659 --> 00:02:21,780
+Which question?
+
+40
+00:02:21,960 --> 00:02:23,199
+Three, the OLS assumptions.
+
+41
+00:02:24,240 --> 00:02:29,500
+Yeah, for OLS assumptions, you can do like three.
+
+42
+00:02:29,900 --> 00:02:34,759
+You can check if the residuals are residuals for the normal
+
+43
+00:02:34,759 --> 00:02:35,759
+distribution.
+
+44
+00:02:36,240 --> 00:02:40,080
+You can check for homosodacity and you can check for the linear
+
+45
+00:02:40,080 --> 00:02:40,580
+relationship.
+
+46
+00:02:40,800 --> 00:02:42,280
+You can do three.
+
+47
+00:02:42,439 --> 00:02:42,819
+That's enough.
+
+48
+00:02:43,699 --> 00:02:45,039
+Does that answer your question?
+
+49
+00:02:46,199 --> 00:02:52,379
+Yeah, if you put it as a markdown, it will be better and professional.
+
+50
+00:02:53,840 --> 00:02:58,439
+If you answer in terms of if it's code then use the code.
+
+51
+00:02:59,199 --> 00:03:06,060
+Both graphs and write ups because try to add your analysis as much as
+
+52
+00:03:06,060 --> 00:03:07,639
+possible, not only code.
+
+53
+00:03:08,280 --> 00:03:13,379
+So add comments or markdowns for whatever you are plotting.
+
+54
+00:03:14,280 --> 00:03:17,240
+Ignite, you can unmute and ask the question.
+
+55
+00:03:24,020 --> 00:03:24,780
+Yes.
+
+56
+00:03:26,199 --> 00:03:28,120
+Inverse, you have professional sense, right?
+
+57
+00:03:28,580 --> 00:03:31,319
+You need to answer in text form or watch.
+
+58
+00:03:33,719 --> 00:03:35,539
+Yeah, that's what I answered.
+
+59
+00:03:35,680 --> 00:03:40,099
+You can add a markdown cell and answer in that cell after each question.
+
+60
+00:03:41,360 --> 00:03:42,840
+That's the answer your question.
+
+61
+00:03:47,259 --> 00:03:52,379
+Yeah, Rohan, the histogram of residuals is enough for normal distribution.
+
+62
+00:03:53,419 --> 00:03:56,919
+But do add like a text cell scene.
+
+63
+00:03:57,819 --> 00:03:59,580
+Just don't add the code, guys.
+
+64
+00:04:00,819 --> 00:04:08,639
+Just don't write the code for plotting histogram and leave it like to add analysis of the graph.
+
+65
+00:04:09,500 --> 00:04:09,780
+Oh, yeah.
+
+66
+00:04:10,460 --> 00:04:11,979
+Markdown code, markdown code.
+
+67
+00:04:12,419 --> 00:04:17,379
+Just add markdowns wherever whenever you want to write the text or analysis
+
+68
+00:04:17,379 --> 00:04:20,540
+and code cells when you want to execute the code.
+
+69
+00:04:21,220 --> 00:04:24,420
+Are there any more questions or we shall end the month?
+
+70
+00:04:25,180 --> 00:04:27,500
+There will be another TS session,
+
+71
+00:04:28,759 --> 00:04:30,740
+four or five days before the deadline.
+
+72
+00:04:31,259 --> 00:04:34,800
+So you guys should, the portion should be covered by them.
+
+73
+00:04:35,060 --> 00:04:37,519
+So you guys should be able to solve that time.
+
+74
+00:04:38,459 --> 00:04:41,240
+About the hackathon, we'll let you know soon.
+
+75
+00:04:42,300 --> 00:04:43,759
+Do you guys have any more questions?
+
+76
+00:04:44,839 --> 00:04:46,360
+Okay, that will end the month.
+
+77
+00:04:46,519 --> 00:04:47,660
+Thank you for joining us.
+
+78
+00:04:48,360 --> 00:04:51,519
+If any of you missed the first part of this session,
+
+79
+00:04:51,519 --> 00:04:53,379
+we'll make the recording available.
+
+80
+00:04:53,540 --> 00:04:55,019
+You guys can catch up with that.
+
+81
+00:04:55,300 --> 00:04:55,879
+Thank you.
+
